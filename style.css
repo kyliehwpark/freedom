@@ -1,0 +1,6 @@
+body {
+
+  background-image: url(images/stars.gif);
+  background-position: center;
+  cursor: url(images/greencursor.png), default;
+}
