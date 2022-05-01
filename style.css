@@ -14,13 +14,13 @@ h1 {
 }
 p {
   color: white;
-  font-weight: bolder;
+  font-weight: normal;
   font-family: 'Redressed', cursive;
 }
 
 
 a {
   color: green;
-  font-weight: bolder;
+  font-weight: lighter;
   font-family:'Redressed', cursive;
 }
