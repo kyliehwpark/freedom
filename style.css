@@ -21,6 +21,6 @@ p {
 
 a {
   color: green;
-  font-weight: lighter;
-  font-family:'Redressed', cursive;
+  font-weight: bold;
+  font-family:'Redressed', normal;
 }
