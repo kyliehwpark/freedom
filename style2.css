@@ -7,6 +7,8 @@ body {
 
   h1 {
   background-image: url(circle.gif);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-attachment: fixed;
+  background-position: center; 
   background-size: auto;
   }
