@@ -9,10 +9,5 @@ body {
   h1 {
   background-image: url(circle.gif);
   background-repeat: no-repeat;
-  background-size: cover;
-  border-radius: 500px;
-  border-bottom: 500px;
-  border-width: thick;
-  height: 80vh;
-    
+  background-size: 300px 300px;
   }
