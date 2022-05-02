@@ -8,6 +8,6 @@ body {
 
   h1 {
   background-image: url(circle.gif);
-  background-repeat: no-repeat;
-  background-size: 300px 300px;
+  background-repeat: loop;
+  background-size: auto;
   }
