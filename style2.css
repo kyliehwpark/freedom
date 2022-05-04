@@ -13,14 +13,14 @@ body {
   }
   100% {
     top: 100px;
-    left: calc(10vw - 100px);
+    left: 100px;
   }
 }
 
 div {
   background-color: red;
-  height: 3%;
-  width: 1.5%;
+  height: 4%;
+  width: 0.5%;
 }
 
 #red {
