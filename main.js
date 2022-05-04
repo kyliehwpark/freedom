@@ -7,5 +7,7 @@ function changeDiv () {
   red.style.left = 'calc(10vw - 108px)'
   red.style.backgroundColor = 'red'
 }
+function red () {
+    red.location.href = "dot.html";
 
 red.addEventListener('click', changeDiv)
