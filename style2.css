@@ -13,14 +13,14 @@ body {
   }
   100% {
     top: 100px;
-    left: 100px;
+    left: calc(8vw - 100px);
   }
 }
 
 div {
   background-color: red;
-  height: 4%;
-  width: 2.5%;
+  height: 2%;
+  width: 1.2%;
 }
 
 #red {
@@ -40,12 +40,13 @@ div {
   h1 {
   background-image: url(circle.gif);
   background-repeat: repeat;
-  background-attachment: fixed;
+  background-attachment: scroll;
   background-position: center; 
-  background-size: 1000px 1000px;
+  background-size: 100px 100px;
+  background-radius:100px;
   border-radius: 100px;
   border-bottom: 100px;
-  border-image-width: 1000px;
+  border-image-width: 100px;
   }
 
 p {
