@@ -52,10 +52,10 @@ div {
   background-attachment: scroll;
   background-position: center; 
   background-size: cover;
-  border-radius: 300px;
+  border-radius: 400px;
   border-bottom: 200px;
   border-image-width: thick;
-  height: 160vh;
+  height: 170vh;
   }
 
 p {
