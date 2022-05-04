@@ -20,7 +20,7 @@ body {
 div {
   background-color: red;
   height: 4%;
-  width: 1.5%;
+  width: 2.5%;
 }
 
 #red {
@@ -30,6 +30,8 @@ div {
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
+  top: 100px;
+  left: calc(8vw - 100px);
   animation-delay: 1s;
   border-radius: 50%
 
