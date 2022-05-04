@@ -11,9 +11,9 @@ body {
   background-attachment: fixed;
   background-position: center; 
   background-size: auto;
-  font-color: white;
-  font-weight: bolder;
-  font-family: 'Redressed', cursive
+  border-radius: 300px;
+  border-bottom: 300px;
+  border-width: thick;
   }
 
 p {
