@@ -40,10 +40,10 @@ div {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 100px 100px;
+  background-size: 1000px 1000px;
   border-radius: 100px;
   border-bottom: 100px;
-  border-width: thick;
+  border-image-width: 1000px;
   }
 
 p {
