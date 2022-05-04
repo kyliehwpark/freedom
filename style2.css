@@ -5,7 +5,7 @@ body {
   cursor: url(greencursor.png), default;
   }
 
-  @keyframes animationFrames{
+  @keyframes bounce{
       0% {
         background-color: blue;
       }
@@ -36,7 +36,7 @@ div {
 
 #red {
   position: relative;
-  top: calc(10vw - 100px)px;
+  top: 200px;
   left: 100px;
   animation-name: bounce;
   animation-iteration-count: infinite;
@@ -52,10 +52,10 @@ div {
   background-attachment: scroll;
   background-position: center; 
   background-size: cover;
-  border-radius: 100px;
-  border-bottom: 100px;
+  border-radius: 300px;
+  border-bottom: 200px;
   border-image-width: thick;
-  height: 140vh;
+  height: 120vh;
   }
 
 p {
