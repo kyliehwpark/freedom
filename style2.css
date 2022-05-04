@@ -12,8 +12,8 @@ body {
 
   }
   100% {
-    top: 100px;
-    left: calc(8vw - 100px);
+    top: 90px;
+    left: calc(8vw - 90px);
   }
 }
 
@@ -25,7 +25,6 @@ div {
 
 #red {
   position: center;
-  animation: mymove 5s infinite;
   animation-name: bounce;
   animation-duration: 4s;
   animation-iteration-count: 1;
@@ -42,11 +41,10 @@ div {
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center; 
-  background-size: 100px 100px;
-  background-radius:100px;
-  border-radius: 100px;
-  border-bottom: 100px;
-  border-image-width: 100px;
+  background-size: 1000px 1000px;
+  border-radius: 2000px;
+  border-bottom: 0px;
+  border-image-width: 1000px;
   }
 
 p {
