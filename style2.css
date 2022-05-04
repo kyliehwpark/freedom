@@ -50,12 +50,13 @@ div {
   background-image: url(circle.gif);
   background-repeat: repeat;
   background-attachment: scroll;
-  background-position: center; 
+  background-position: center;
   background-size: cover;
   border-radius: 400px;
   border-bottom: 200px;
   border-image-width: thick;
-  height: 170vh;
+  height: 100vh;
+  width: 50vw;
   }
 
 p {
