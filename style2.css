@@ -5,6 +5,37 @@ body {
   cursor: url(greencursor.png), default;
   }
 
+@keyframes bounce {
+  0% {
+    top: 0px;
+    left: 0px;
+
+  }
+  100% {
+    top: 100px;
+      left: calc(10vw - 98px);
+  }
+}
+
+div {
+  background-color: red;
+  height: 2%;
+  width: 1.2%;
+}
+
+#red {
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 4s;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in;
+  top: 108px;
+  left: calc(10vw - 108px);
+  animation-delay: 1s;
+  border-radius: 50%
+
+}
+
   h1 {
   background-image: url(circle.gif);
   background-repeat: repeat;
