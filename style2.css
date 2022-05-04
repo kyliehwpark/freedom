@@ -13,25 +13,23 @@ body {
   }
   100% {
     top: 100px;
-    left: calc(10vw - 50px);
+    left: calc(10vw - 100px);
   }
 }
 
 div {
   background-color: red;
-  height: 2%;
+  height: 3%;
   width: 1.5%;
 }
 
 #red {
-  position: relative;
+  position: center;
   animation: mymove 5s infinite;
   animation-name: bounce;
   animation-duration: 4s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  top: 300px;
-  left: 300px;
   animation-delay: 1s;
   border-radius: 50%
 
@@ -42,8 +40,8 @@ div {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: auto;
-  border-radius: 1000px;
+  background-size: 300px 300px;
+  border-radius: 500px;
   border-bottom: 500px;
   border-width: thick;
   }
