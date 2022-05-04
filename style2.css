@@ -40,7 +40,7 @@ div {
 
   h1 {
   background-image: url(circle.gif);
-  background-repeat: no-repeat;
+  background-repeat: repeat;
   background-attachment: scroll;
   background-position: center; 
   background-size: cover;
