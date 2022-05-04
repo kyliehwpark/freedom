@@ -36,13 +36,11 @@ div {
 }
 
 #red {
-  position: relative;
+  position: center;
   animation-name: bounce;
   animation-duration: 2s;
-  animation-iteration-count: 1;
+  animation-iteration-count: infinite;
   animation-timing-function: ease-in;
-  top: 150px;
-  left: 150px;
   animation-delay: 0.5s;
   border-radius: 50%
 
@@ -54,8 +52,8 @@ div {
   background-attachment: scroll;
   background-position: center; 
   background-size: cover;
-  border-radius: 500px;
-  border-bottom: 500px;
+  border-radius: 100px;
+  border-bottom: 100px;
   border-image-width: thick;
   height: 100vh;
   }
