@@ -5,19 +5,19 @@ body {
   cursor: url(greencursor.png), default;
   }
 
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    49% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 0;
-    }
+@keyframes bounce {
+  0% {
+    opacity: 0%
+    top: 0px;
+    left: 0px;
+
+  }
+  100% {
+    opacity: 100%
+    top: 98px;
+    left: calc(10vw - 98px);
+  }
+}
 
 div {
   background-color: red;
@@ -26,24 +26,24 @@ div {
 }
 
 #red {
-  position: center;
-  animation-name: blink;
-  animation-duration: 4s;
+  position: relative;
+  animation-name: bounce;
+  animation-duration: 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  top: 100px;
-  left: 100px;
-  animation-delay: 1s;
+  top: 108px;
+  left: calc(10vw - 108px);
+  animation-delay: 0.5s;
   border-radius: 50%
 
 }
 
   h1 {
   background-image: url(circle.gif);
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center; 
-  background-size: auto;
+  background-size: cover;
   border-radius: 500px;
   border-bottom: 500px;
   border-image-width: thick;
