@@ -43,10 +43,11 @@ div {
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center; 
-  background-size: 300px 100px;
-  border-radius: 2000px;
-  border-bottom: 0px;
-  border-image-width: 300px;
+  background-size: auto;
+  border-radius: 500px;
+  border-bottom: 500px;
+  border-image-width: thick;
+  height: 80vh;
   }
 
 p {
