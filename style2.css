@@ -40,9 +40,9 @@ div {
   background-repeat: repeat;
   background-attachment: fixed;
   background-position: center; 
-  background-size: 300px 300px;
-  border-radius: 500px;
-  border-bottom: 500px;
+  background-size: 100px 100px;
+  border-radius: 100px;
+  border-bottom: 100px;
   border-width: thick;
   }
 
