@@ -7,17 +7,27 @@ body {
 
 @keyframes bounce {
   0% {
-    opacity: 0%
-    top: 0px;
-    left: 0px;
-
-  }
-  100% {
-    opacity: 100%
-    top: 98px;
-    left: calc(10vw - 98px);
-  
-}
+        background-color: blue;
+      }
+      15% {
+        background-color: red;
+      }
+      30% {
+        background-color: orange;
+      }
+      45% {
+        background-color: purple;
+      }
+      60% {
+        background-color: green;
+      }
+      75% {
+       background-color: pink;
+      }
+      100% {
+        background-color: black;
+      }
+    }
 
 div {
   background-color: red;
@@ -31,8 +41,8 @@ div {
   animation-duration: 2s;
   animation-iteration-count: 1;
   animation-timing-function: ease-in;
-  top: 108px;
-  left: calc(10vw - 108px);
+  top: 150px;
+  left: 150px;
   animation-delay: 0.5s;
   border-radius: 50%
 
@@ -47,7 +57,7 @@ div {
   border-radius: 500px;
   border-bottom: 500px;
   border-image-width: thick;
-  height: 80vh;
+  height: 100vh;
   }
 
 p {
