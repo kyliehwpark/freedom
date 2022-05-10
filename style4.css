@@ -36,8 +36,8 @@ div {
 
 #red {
   position: relative;
-  top: 200px;
-  left: 100px;
+  top: 50px;
+  left: 200px;
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
