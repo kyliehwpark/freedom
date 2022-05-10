@@ -30,14 +30,12 @@ body {
     }
 div {
   height: 7px;
-  width: 100px;
+  width: 200px;
   animation: animationFrames 5s infinite;
 }
 
 #red {
-  position: relative;
-  top: 200px;
-  left: 100px;
+  position: center;
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
