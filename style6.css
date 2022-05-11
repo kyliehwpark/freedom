@@ -29,15 +29,15 @@ body {
       }
     }
 div {
-  height: 14px;
-  width: 14px;
+  height: 40px;
+  width: 40px;
   animation: animationFrames 5s infinite;
 }
 
 #red {
   position: relative;
-  top: 200px;
-  left: 100px;
+  top: 500px;
+  left: 500px;
   animation-name: bounce;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in;
@@ -47,16 +47,9 @@ div {
 }
 
   h1 {
-  background-image: url(limitless.gif);
-  background-repeat: repeat;
-  background-attachment: scroll;
-  background-position: center;
-  background-size: cover;
-  border-radius: 400px;
-  border-bottom: 200px;
-  border-image-width: thick;
-  height: 95vh;
-  width: 52vw;
+  color: red;
+  font-weight: bolder;
+  font-family:'Redressed', cursive;
   }
 
 p {
@@ -67,7 +60,14 @@ p {
 
 
 a {
-  color: red;
-  font-weight: bolder;
-  font-family:'Redressed', cursive;
+  background-image: url(limitless.gif);
+  background-repeat: repeat;
+  background-attachment: scroll;
+  background-position: center;
+  background-size: cover;
+  border-radius: 400px;
+  border-bottom: 200px;
+  border-image-width: thick;
+  height: 95vh;
+  width: 52vw;
 }
