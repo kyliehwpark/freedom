@@ -58,11 +58,11 @@ p {
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  border-radius: 400px;
-  border-bottom: 200px;
+  border-radius: 100px;
+  border-bottom: 100px;
   border-image-width: thick;
-  height: 95vh;
-  width: 52vw;
+  height: 40vh;
+  width: 40vw;
  
 }
 
