@@ -7,22 +7,22 @@ body {
 }
 
   h1 {
-  background-image: url(box.gif);
+   color: white;
+  font-weight: normal;
+  font-family: 'Redressed', cursive;
+  }
+
+p {
+ background-image: url(box.gif);
   background-repeat: repeat;
   background-attachment: scroll;
   background-position: center;
   background-size: cover;
-  border-radius: 200px;
-  border-bottom: 200px;
+  border-radius: 100px;
+  border-bottom: 100px;
   border-image-width: thick;
-  height: 60vh;
-  width: 60vw;
-  }
-
-p {
-  color: white;
-  font-weight: normal;
-  font-family: 'Redressed', cursive;
+  height: 50vh;
+  width: 20vw;
 }
 
 
