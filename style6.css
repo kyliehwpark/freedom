@@ -53,13 +53,6 @@ div {
   }
 
 p {
-  color: white;
-  font-weight: normal;
-  font-family: 'Redressed', cursive;
-}
-
-
-a {
   background-image: url(limitless.gif);
   background-repeat: repeat;
   background-attachment: scroll;
@@ -70,4 +63,12 @@ a {
   border-image-width: thick;
   height: 95vh;
   width: 52vw;
+ 
+}
+
+
+a {
+  color: white;
+  font-weight: normal;
+  font-family: 'Redressed', cursive;
 }
