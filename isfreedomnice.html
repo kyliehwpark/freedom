@@ -1,0 +1,102 @@
+<html lang="en-US">
+<head> <meta charset="utf-8">
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Redressed&display=swap">
+
+<link rel="stylesheet" href="style0.css">
+
+
+  <title>freedom is never free</title>
+  
+<style>
+  body {
+    background-image: url(stars.gif);
+  }
+
+  h1 {
+    color: white;
+    font-weight: bolder;
+    font-family: "Redressed", cursive
+  }
+
+  p {
+    color: white;
+    font-weight: normal;
+    font-family: "Redressed", cursive;
+  }
+
+
+  a {
+    color: red;
+    font-weight: bolder;
+    font-family: "Redressed", cursive;
+  }
+
+  #banner {
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #banner button {
+    display: block;
+    margin: 0 auto;
+  }
+</style>
+
+<div id="banner">
+  <section>
+    <p>
+      "freedom is never free."
+    </p>
+    <button>OK</button>
+  </section>
+</div>
+
+<audio src="water.mp3" loop></audio>
+
+<center>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <h1>freedom</h1>
+  <p> knowing
+    <a href="index2.html">what you really want</a>
+    is freedom.</p>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <br>
+  <p>
+  <a href="https://www.google.com/">exit</a>
+  to opt out.</p>
+  <br>
+  <br>
+  
+</center>
+
+<script>
+
+  const banner = document.querySelector('#banner')
+  const button = document.querySelector('#banner button')
+  const audio = document.querySelector('audio')
+  
+  button.addEventListener('click', () => {
+    audio.play()
+    banner.style.display = 'none'
+  })
+  
+</script> 
